@@ -49,9 +49,19 @@ GitHub 上张雪峰 skill 已经一抓一把,但它们都是**一个人说了算
 
 ---
 
+## 安装
+
+需要 Claude Code(或任何支持 Agent Skill 的框架)。一行命令把本仓库拉进个人 skill 目录即可:
+
+```bash
+git clone https://github.com/xf686/Musk-x-Zhangxuefeng.git ~/.claude/skills/musk-x-zhangxuefeng
+```
+
+Claude 会自动发现 `~/.claude/skills/` 下的 skill,无需额外配置。如果你用的是其它支持 skill 的 Agent 框架,把本目录放进它约定的 skills 目录即可。
+
 ## 怎么用
 
-把本目录作为 Claude skill 安装后,直接对 Claude 说你的困惑即可,例如:
+装好后,新开一个对话,直接对 Claude 说你的困惑即可,例如:
 
 - "我高考完了不知道选什么专业"
 - "计算机和金融,选哪个更有前途?"
